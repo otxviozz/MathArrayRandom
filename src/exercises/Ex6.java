@@ -21,7 +21,7 @@ public class Ex6 {
         password += letra; //adiciono ele na string
 		}
 		else if(i>6) {
-		numero = 97 + random.nextInt(26); //gero um número entre 65-90
+		numero = 97 + random.nextInt(26); //gero um número entre 97-121
 	    char letra = (char) numero; // converto pra ascii
 	    password += letra; //adiciono ele na string
 		}
