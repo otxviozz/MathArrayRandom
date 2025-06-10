@@ -34,5 +34,6 @@ public class Ex16 {
 		else {
 			System.out.println("Essa palavra não está na frase.");
 		}
+		scan.close();
 	}
 }

@@ -32,5 +32,6 @@ public class Ex15 {
 			System.out.println("Palavra: "+palavrapura+".");
 			System.out.println("Invertido: "+invertido+".");
 		}
+		scan.close();
 	}
 }

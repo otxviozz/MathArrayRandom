@@ -16,5 +16,6 @@ public class Ex14 {
 		 invertido += palavra.charAt(palavra.length() - 1 - i);
 		}
 		System.out.println("A palavra invertida é "+invertido+".");
+		scan.close();
 	}
 }

@@ -12,6 +12,7 @@ public class Ex12 {
 		System.out.print("Digite uma palavra: ");
 		String palavra = scan.nextLine();
 		System.out.println("Substring: "+palavra.substring(0, 1)+" e "+palavra.substring(palavra.length()-1)+".");
+		scan.close();
 	}
 
 }
