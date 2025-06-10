@@ -16,8 +16,8 @@ public class Ex7 {
 		
 		while(true) {
 			try {
-				System.out.println("Digite um número:");
-				int suposicao = scan.nextInt();
+				System.out.printf("Digite um número:");
+				int suposicao = Integer.parseInt(scan.nextLine());
 				
 				if(suposicao > numero) {
 					System.out.println("O seu número é maior que o número misterioso!");
